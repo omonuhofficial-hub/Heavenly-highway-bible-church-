@@ -1,0 +1,40 @@
+#pastor{
+    padding:80px 10%;
+    background:white;
+}
+
+.pastor-container{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.pastor-image{
+    flex:1;
+    min-width:300px;
+}
+
+.pastor-image img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.pastor-text{
+    flex:1;
+}
+
+.pastor-text h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.pastor-text h3{
+    color:#d32f2f;
+    margin-bottom:20px;
+}
+
+.pastor-text p{
+    line-height:1.8;
+}
